@@ -1,4 +1,4 @@
-# Benchmarking Pipeline for Viral Detection
+# Benchmarking de Pipeline de prédiction des virus :
 
 Ce dépôt centralise l'ensemble des scripts et pipelines de benchmarking développés pour l'évaluation et la comparaison d'outils de prédiction et de détection virale.
 
@@ -20,9 +20,6 @@ Le projet est structuré de manière à suivre l'ordre logique du pipeline de be
 
 ---
 
-## 🚀 Zoom sur le script de filtrage pVOG
+#### Environnement et Dépendances
 
-Pour garantir la robustesse du benchmark, les génomes bactériens servant de contrôle négatif doivent être rigoureusement exempts de prophages. Le script de batch automatisé permet d'exclure tout contig possédant un ratio de gènes viraux supérieur ou égal à 30 %.
-
-### Environnement et Dépendances
 Le pipeline s'appuie sur une image Singularity (`virome-bench-v6.sif`) embarquant toutes les dépendances requises pour l'analyse.
