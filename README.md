@@ -1,5 +1,7 @@
 # Benchmarking de Pipeline de prédiction des virus :
 
+![Workflow du Pipeline](fig_2_used.svg)
+
 Ce dépôt centralise l'ensemble des scripts et pipelines de benchmarking développés pour l'évaluation et la comparaison d'outils de prédiction et de détection virale.
 
 L'objectif principal est d'évaluer, tester et comparer l'efficacité de différents logiciels bioinformatiques à l'aide de jeux de données contrôlés (RefSeq et jeux de données simulés/*Mock*).
